@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Circle.unity
+    guid: 39d4ed9e1db37a648aabc925086a174c
+  - enabled: 1
+    path: Assets/Scenes/Diamond.unity
+    guid: 76352f56b9a85cb42863e14f3a053e79
+  - enabled: 1
+    path: Assets/Scenes/Square.unity
+    guid: 93100182dbda5704e9d8a70bb10ff213
   m_configObjects: {}

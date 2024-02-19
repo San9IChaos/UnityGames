@@ -215,7 +215,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: 9c5c29773d16df9489b35144459d402d, type: 3}
-  foundCard: {fileID: 21300000, guid: 9c5c29773d16df9489b35144459d402d, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 4
 --- !u!61 &81115018
 BoxCollider2D:
@@ -297,7 +297,7 @@ RectTransform:
   - {fileID: 1307594776}
   - {fileID: 1904308130}
   - {fileID: 798871237}
-  - {fileID: 99516565}
+  - {fileID: 1037226831}
   m_Father: {fileID: 1273256653}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -342,82 +342,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81515176}
-  m_CullTransparentMesh: 1
---- !u!1 &99516564
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 99516565}
-  - component: {fileID: 99516567}
-  - component: {fileID: 99516566}
-  m_Layer: 0
-  m_Name: RestartPanel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &99516565
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99516564}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0002701, y: 1.0002701, z: 1.0002701}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1161666411}
-  m_Father: {fileID: 81515177}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 600, y: 600}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &99516566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99516564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &99516567
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99516564}
   m_CullTransparentMesh: 1
 --- !u!1 &182433226
 GameObject:
@@ -555,7 +479,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: 5ed6c9c95d05967479f4e707c1a583bf, type: 3}
-  foundCard: {fileID: 21300000, guid: 5ed6c9c95d05967479f4e707c1a583bf, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 1
 --- !u!61 &275296194
 BoxCollider2D:
@@ -906,7 +830,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: 533f998b02c5e0645a47f75d14dbabb0, type: 3}
-  foundCard: {fileID: 21300000, guid: 533f998b02c5e0645a47f75d14dbabb0, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 5
 --- !u!61 &378943554
 BoxCollider2D:
@@ -1356,7 +1280,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: 5ed6c9c95d05967479f4e707c1a583bf, type: 3}
-  foundCard: {fileID: 21300000, guid: 5ed6c9c95d05967479f4e707c1a583bf, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 1
 --- !u!61 &867849086
 BoxCollider2D:
@@ -1495,7 +1419,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: 533f998b02c5e0645a47f75d14dbabb0, type: 3}
-  foundCard: {fileID: 21300000, guid: 533f998b02c5e0645a47f75d14dbabb0, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 5
 --- !u!61 &892419238
 BoxCollider2D:
@@ -1647,7 +1571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 465136842}
-  endGame: {fileID: 99516564}
+  endGame: {fileID: 0}
   time: 60
 --- !u!4 &1016092165
 Transform:
@@ -1664,6 +1588,82 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1037226830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037226831}
+  - component: {fileID: 1037226833}
+  - component: {fileID: 1037226832}
+  m_Layer: 0
+  m_Name: RestartPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1037226831
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037226830}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0002701, y: 1.0002701, z: 1.0002701}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1196660485}
+  m_Father: {fileID: 81515177}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 600, y: 600}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1037226832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037226830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1037226833
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037226830}
+  m_CullTransparentMesh: 1
 --- !u!1 &1141528239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,7 +1756,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: f5c081922c95e9548b5d4aef59c3ccb1, type: 3}
-  foundCard: {fileID: 21300000, guid: f5c081922c95e9548b5d4aef59c3ccb1, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 3
 --- !u!61 &1141528244
 BoxCollider2D:
@@ -1803,7 +1803,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 180, y: 180}
   m_EdgeRadius: 0
---- !u!1 &1161666410
+--- !u!1 &1196660484
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1811,42 +1811,99 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1161666411}
-  - component: {fileID: 1161666413}
-  - component: {fileID: 1161666412}
+  - component: {fileID: 1196660485}
+  - component: {fileID: 1196660488}
+  - component: {fileID: 1196660487}
+  - component: {fileID: 1196660486}
   m_Layer: 0
-  m_Name: Image
+  m_Name: Button (Restart)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1161666411
+--- !u!224 &1196660485
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161666410}
+  m_GameObject: {fileID: 1196660484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 99516565}
+  m_Father: {fileID: 1037226831}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 300, y: 300}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1161666412
+--- !u!114 &1196660486
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161666410}
+  m_GameObject: {fileID: 1196660484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1196660487}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1016092164}
+        m_TargetAssemblyTypeName: GameTimer, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1196660487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196660484}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -1870,13 +1927,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &1161666413
+--- !u!222 &1196660488
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1161666410}
+  m_GameObject: {fileID: 1196660484}
   m_CullTransparentMesh: 1
 --- !u!1 &1273256652
 GameObject:
@@ -2148,7 +2205,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: 5ed6c9c95d05967479f4e707c1a583bf, type: 3}
-  foundCard: {fileID: 21300000, guid: 5ed6c9c95d05967479f4e707c1a583bf, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 1
 --- !u!61 &1584613316
 BoxCollider2D:
@@ -2287,7 +2344,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: 9c5c29773d16df9489b35144459d402d, type: 3}
-  foundCard: {fileID: 21300000, guid: 9c5c29773d16df9489b35144459d402d, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 4
 --- !u!61 &1618049282
 BoxCollider2D:
@@ -2475,7 +2532,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: 7880c1377cea80f4fa64585d0394d52e, type: 3}
-  foundCard: {fileID: 21300000, guid: 7880c1377cea80f4fa64585d0394d52e, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 2
 --- !u!61 &1804819544
 BoxCollider2D:
@@ -2801,7 +2858,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: f5c081922c95e9548b5d4aef59c3ccb1, type: 3}
-  foundCard: {fileID: 21300000, guid: f5c081922c95e9548b5d4aef59c3ccb1, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 3
 --- !u!61 &2028121792
 BoxCollider2D:
@@ -2940,7 +2997,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: 7880c1377cea80f4fa64585d0394d52e, type: 3}
-  foundCard: {fileID: 21300000, guid: 7880c1377cea80f4fa64585d0394d52e, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 2
 --- !u!61 &2033451853
 BoxCollider2D:
@@ -3211,7 +3268,7 @@ MonoBehaviour:
   game: {fileID: 1779894504}
   backCard: {fileID: 21300000, guid: c4a08c13935d91e4f8db1b9500aae84b, type: 3}
   frontCard: {fileID: 21300000, guid: 5ed6c9c95d05967479f4e707c1a583bf, type: 3}
-  foundCard: {fileID: 21300000, guid: 5ed6c9c95d05967479f4e707c1a583bf, type: 3}
+  foundCard: {fileID: 21300000, guid: 770ec0ce9e49f9744a2117a9279db9d1, type: 3}
   number: 1
 --- !u!61 &2109395109
 BoxCollider2D:

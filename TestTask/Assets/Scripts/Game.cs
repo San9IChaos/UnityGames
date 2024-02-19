@@ -8,7 +8,7 @@ public class Game : MonoBehaviour
     [SerializeField] List<Card> cards;
 
     [SerializeField] int numberCard;
-    [SerializeField] bool findCard = false;
+    [SerializeField] bool findCard;
 
     [SerializeField] GameTimer gameTimer;
 
@@ -109,6 +109,7 @@ public class Game : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         card.GetComponent<Card>().FindCard();
         findCard = false;
+        Win();
     }
 
     public void Win()
@@ -123,7 +124,7 @@ public class Game : MonoBehaviour
         }
         if (a == panelCard.childCount)
         {
-            gameTimer.time = 0;
+            gameTimer.time = 1;
         }
     }
 }
